@@ -1269,12 +1269,6 @@ function UILIB:Load(name, img, direction)
 			task.wait(0.3)
 			tw2:Play()
 	end)
-        task.spawn(function()
-	     while true do
-		task.wait(0.1)
-		parent.TopBar.ProfileMenu.Clock.TextLabel.Text = os.date("%H:%m")
-	     end
-        end)
 	parent.TopBar.ProfileMenu.Title.TextLabel.Text = name
 	if img then
 		parent.MainBar.Logo.Image = img

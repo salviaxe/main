@@ -18,8 +18,6 @@ DRR["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["2"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.1899999976158142, 0);
 DRR["2"]["Name"] = [[TopBar]];
 
-
-
 -- DrRay.TopBar.UICorner
 DRR["3"] = Instance.new("UICorner", DRR["2"]);
 DRR["3"]["CornerRadius"] = UDim.new(0.10000000149011612, 0);

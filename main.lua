@@ -11,7 +11,7 @@ DRR["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 -- DrRay.TopBar
 DRR["2"] = Instance.new("Frame", DRR["1"]);
 DRR["2"]["BorderSizePixel"] = 0;
-DRR["2"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58, 0.8);
+DRR["2"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
 DRR["2"]["LayoutOrder"] = 2;
 DRR["2"]["Size"] = UDim2.new(0.5404488444328308, 0, 0.1739015281200409, 0);
 DRR["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);

@@ -14,10 +14,20 @@ DRR["2"]["BorderSizePixel"] = 0;
 DRR["2"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
 DRR["2"]["BackgroundTransparency"] = 0.3;
 DRR["2"]["LayoutOrder"] = 2;
-DRR["2"]["Size"] = UDim2.new(0.5404488444328308, 0, 0.1739015281200409, 0);
+DRR["2"]["Size"] = UDim2.new(0.7, 0, 0.35, 0); -- Increased width and height
 DRR["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-DRR["2"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.1899999976158142, 0);
+DRR["2"]["Position"] = UDim2.new(0.15, 0, -0.1899999976158142, 0);
 DRR["2"]["Name"] = [[TopBar]];
+
+
+
+
+
+
+
+
+
+
 
 -- DrRay.TopBar.UICorner
 DRR["3"] = Instance.new("UICorner", DRR["2"]);
@@ -269,9 +279,9 @@ DRR["28"] = Instance.new("Frame", DRR["1"]);
 DRR["28"]["BorderSizePixel"] = 0;
 DRR["28"]["BackgroundColor3"] = Color3.fromRGB(42, 42, 58);
 DRR["28"]["BackgroundTransparency"] = 0.3;
-DRR["28"]["Size"] = UDim2.new(0.5404488444328308, 0, 0.5745577812194824, 0);
+DRR["28"]["Size"] = UDim2.new(0.7, 0, 0.8, 0); -- Increased width and height
 DRR["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-DRR["28"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.6119999885559082, 0);
+DRR["28"]["Position"] = UDim2.new(0.15, 0, -0.6119999885559082, 0);
 DRR["28"]["Name"] = [[MainBar]];
 
 -- DrRay.MainBar.UICorner

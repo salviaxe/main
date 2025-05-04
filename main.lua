@@ -19,19 +19,6 @@ DRR["2"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["2"]["Position"] = UDim2.new(0.23000000417232513, 0, -0.1899999976158142, 0);
 DRR["2"]["Name"] = [[TopBar]];
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- DrRay.TopBar.UICorner
 DRR["3"] = Instance.new("UICorner", DRR["2"]);
 DRR["3"]["CornerRadius"] = UDim.new(0.10000000149011612, 0);
@@ -79,7 +66,7 @@ DRR["8"]["ScaleType"] = Enum.ScaleType.Slice;
 DRR["8"]["ImageColor3"] = Color3.fromRGB(0, 0, 0);
 DRR["8"]["ImageTransparency"] = 0.5;
 DRR["8"]["AnchorPoint"] = Vector2.new(0.5, 0.5);
-DRR["8"]["Image"] = nil
+DRR["8"]["Image"] = [[rbxassetid://6014261993]];
 DRR["8"]["Size"] = UDim2.new(1, 47, 1, 47);
 DRR["8"]["Name"] = [[DropShadow]];
 DRR["8"]["BackgroundTransparency"] = 1;
@@ -262,7 +249,7 @@ DRR["24"] = Instance.new("UIAspectRatioConstraint", DRR["1f"]);
 DRR["25"] = Instance.new("ImageLabel", DRR["1f"]);
 DRR["25"]["BorderSizePixel"] = 0;
 DRR["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-DRR["25"]["Image"] = nil
+DRR["25"]["Image"] = [[rbxassetid://14122651741]];
 DRR["25"]["LayoutOrder"] = 1;
 DRR["25"]["Size"] = UDim2.new(0.5081987380981445, 0, 0.5971601009368896, 0);
 DRR["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);

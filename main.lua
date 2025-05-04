@@ -8,28 +8,6 @@ DRR["1"]["ScreenInsets"] = Enum.ScreenInsets.DeviceSafeInsets;
 DRR["1"]["Name"] = [[SalviaX]];
 DRR["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
 
-
-
-
-
--- Remove all images from TopBar except for the user profile image
-for _, child in ipairs(parent.TopBar:GetDescendants()) do
-	if child:IsA("ImageLabel") or child:IsA("ImageButton") then
-		if child ~= parent.TopBar.ProfileMenu.PlayerProfile.ImageLabel then
-			child.Image = ""
-		end
-	end
-end
-
-
-
-
-
-
-
-
-
-
 -- DrRay.TopBar
 DRR["2"] = Instance.new("Frame", DRR["1"]);
 DRR["2"]["BorderSizePixel"] = 0;
